@@ -1,0 +1,1 @@
+{"name":"Local: program1","url":"c:\\Users\\ancor\\OneDrive\\Desktop\\New folder\\program1.py","tests":[{"id":1668163606759,"input":"aaabcccad","output":"a3bc3ad"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ancor\\OneDrive\\Desktop\\New folder\\program1.py","group":"local","local":true}
