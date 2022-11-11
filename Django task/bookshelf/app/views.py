@@ -14,6 +14,15 @@ def BookShelf_Details(request):
         data=BookShelf.objects.all()
         serializer=BookShelfSerializer(data,many=TRUE)
         return Response(serializer.data)
+
+
+@api_view(['GET'])
+def BookShelf_SingleRecord(request,pk):
+    
+    if request.method =='GET':
+        data=BookShelf.objects.get(id=pk)
+        serializer=BookShelfSerializer(data)
+        return Response(serializer.data)
     
     
 @api_view(['POST'])
